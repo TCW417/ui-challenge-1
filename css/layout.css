@@ -2,20 +2,15 @@ div {
   width: 480px; 
   margin: 0 auto; 
 }
-img {
-  padding: -2px;
-}
 
 #a img {
   width: 480px;
   height: 75px;
-  margin: 0 auto;
 }
 
 #b img {
   width: 480px;
   height: 150px;
-  margin: 0 auto;
 }
 
 #c img, #d img {
@@ -30,9 +25,6 @@ img {
 #e img, #f img, #g img, #h img {
   width: 240px;
   height: 250px;
-  padding: -20px;
-  /* display: inline-block; */
-  /* float: left; */
 }
 
 #e img, #g img {
@@ -47,3 +39,40 @@ img {
   height: 80px;
 }
 
+@media only screen and (min-width:960px){
+  div {
+    width: 960px;
+  }
+  #a img {
+    width: 960px;
+    height: 100px;
+  }
+  #b img {
+    float: left;
+    width: 200px;
+    height: 600px;
+  }
+  #c img, #d img {
+    width: 380px;
+    height: 200px;
+  }
+  #c img {
+    float: left;
+  }
+  #d img {
+    float: right;
+  }
+  #e img, #f img, #g img, #h img {
+    width: 190px;
+    height: 250px;
+    float: left;
+  }
+  .twoColContainer {
+    width: 380px;
+    float: left;
+  }
+  #i img {
+    width: 760px;
+    height: 150px;
+  }
+}
