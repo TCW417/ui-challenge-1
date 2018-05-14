@@ -1,0 +1,55 @@
+div {
+  text-align: center;
+}
+
+#a {
+  background-color: #245A67;
+  line-height: 75px;
+}
+
+nav {
+  background-color: #84B4BF;
+  line-height: 150px;
+  text-align: center;
+}
+
+#c, #d {
+  line-height: 125px;
+}
+
+#c {
+  background-color: rgb(28, 78, 90);
+}
+
+#d {
+  background-color: #245A67;
+}
+
+#e, #f, #g, #h {
+  line-height: 250px;
+}
+
+#e, #g {
+  background-color:#84B4BF;
+}
+#f, #h {
+  background-color: #4A7F8C
+}
+#i {
+  background-color: #4A7F8C;
+  line-height: 80px;
+}
+@media only screen and (min-width:960px){
+  #a {
+    line-height: 100px;
+  }
+  nav {
+    line-height: 600px;
+  }
+  #c, #d {
+    line-height: 200px;
+  }
+  #i {
+    line-height: 150px;
+  }
+}

@@ -1,15 +1,26 @@
 * {
   font-family: sans-serif;
+  color: white;
+}
+body {
   max-width: 100%;
   min-width: 480px;
 }
-
-img {
+div, nav, main {
   outline: 1px solid black;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* img {
+  outline: 1px solid black;
+} */
+
 @media only screen and (min-width:960px){
-  * {
+  body {
     max-width: 100%;
     min-width: 0%;
   }
