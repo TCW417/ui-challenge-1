@@ -1,0 +1,49 @@
+div {
+  width: 480px; 
+  margin: 0 auto; 
+}
+img {
+  padding: -2px;
+}
+
+#a img {
+  width: 480px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+#b img {
+  width: 480px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+#c img, #d img {
+  width: 480px;
+  height: 125px;
+}
+
+.twoColContainer {
+  width: 480px;
+
+}
+#e img, #f img, #g img, #h img {
+  width: 240px;
+  height: 250px;
+  padding: -20px;
+  /* display: inline-block; */
+  /* float: left; */
+}
+
+#e img, #g img {
+  float: left;
+}
+#f img, #h img {
+  float: right;
+}
+
+#i img {
+  width: 480px;
+  height: 80px;
+}
+
